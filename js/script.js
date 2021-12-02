@@ -43,19 +43,7 @@ window.onscroll = function () {
     }
 }
 
-// Side Navigation Menu Closed When Navigation Links Clicked
 
-let navLinks = document.querySelectorAll(".menu li a") ;
-    for ( var i =0; i < navLinks.length; i++) {
-        navLinks[i].addEventListener("click", ()=> {
-            menuBtn.style.opacity = "1";
-            menuBtn.style.pointerEvents = "auto";
-            navBar.classList.remove("active");
-            body.style.overflow = "auto"; 
-
-        });
-    
-    }   
 
 
 
