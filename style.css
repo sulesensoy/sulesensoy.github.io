@@ -42,7 +42,7 @@ nav.sticky{
 }
 
 nav .navbar {
-    width: 90%;
+    width: 100%;
     margin: auto; 
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ nav.sticky .menu li a:hover {
 }
 
 nav .menu-btn i{
-    color:#add8e6 ;
+    color: #828282;
 }
 
 nav .menu-btn,
@@ -115,7 +115,7 @@ nav .menu-btn,
     color:#fff;
     font-size: 20px;
     right: 30px;
-    top: 20px;
+    top: 10px;
     display: none;
     cursor: pointer;
 }   
@@ -408,7 +408,7 @@ footer .text span a:hover {
     }
 
     nav.sticky .navbar .menu li a {
-        color: #0E2431;
+        color: #f0f0f0;
 
     }
 
